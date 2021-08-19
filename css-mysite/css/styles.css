@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap');
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif; 
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    color: #2B4F60;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a {
+    color: #2B4F60;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.title {
+    font-weight: normal;
+}
+
+.web {
+    text-decoration: underline;
+}
+
+.top {
+    background: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.profile-pic {
+    border-radius: 100%;
+    border: 1px solid;
+    height: auto;
+    width: 200px;
+}
+
+hr {
+    border-color: #C8C2BC;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 9px;
+    width: 6%;
+    margin: 100px auto;
+}
+
+.coding {
+    height: auto;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.art {
+    height: auto;
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.middle {
+    margin-top: 60px;
+    margin-bottom: 60px;    
+}
+
+.bottom {
+    background-color: #66BFBF; 
+    padding-top: 60px; 
+    padding-bottom: 50px;  
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-row p {
+    color: #40514E;
+}
+
+button {
+    background: hsla(180, 41%, 57%, 1);
+    background: linear-gradient(360deg, hsla(180, 41%, 57%, 1) 0%, hsla(226, 50%, 65%, 1) 100%);
+    background: -moz-linear-gradient(360deg, hsla(180, 41%, 57%, 1) 0%, hsla(226, 50%, 65%, 1) 100%);
+    background: -webkit-linear-gradient(360deg, hsla(180, 41%, 57%, 1) 0%, hsla(226, 50%, 65%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#66BFBF", endColorstr="#7A8FD3", GradientType=1 );
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.5rem;
+    margin: 30px auto;
+    padding: 10px 20px;
+}
+
+button:hover {
+    background: #2B4F60;
+    cursor: pointer;
+}
+
+.footer-link {
+    padding: 20px;
+}
+
+.copyright {
+    color: #EAF6F6;
+    padding-top: 30px;
+}
+
