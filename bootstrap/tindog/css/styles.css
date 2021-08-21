@@ -119,3 +119,21 @@ body {
     height: auto;
     margin: 20px 20px 50px;
 }
+
+/* PRICING SECTION */
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+#pricing h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.price-column {
+    padding:  3% 2% !important;
+}
+
+
