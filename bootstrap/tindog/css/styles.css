@@ -82,4 +82,40 @@ body {
     cursor: pointer;
 }
 
+/* TESTIMONIALS SECTION */
 
+#testimonials {
+    text-align: center;
+    background: #EF8172;
+    color: #fff;
+}
+
+#testimonials h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.dog {
+    border-radius: 100%;
+    margin: 20px;
+    height: auto;
+    width: 15%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* PRESS SECTION */
+#press {
+    background: #EF8172;  
+    text-align: center;  
+    padding-bottom: 3%;
+}
+
+.logo {
+    width: 12%;
+    height: auto;
+    margin: 20px 20px 50px;
+}
