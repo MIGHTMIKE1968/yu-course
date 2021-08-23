@@ -37,13 +37,15 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 15% !important;
+    padding: 3% 15% 7% !important;
 }
 
 .iphone {
-    transform: rotate(35deg);
+    transform: rotate(25deg);
     width: 60%;
     height: auto;
+    position: absolute;
+    right: 27%;
 }
 
 .download-button {
@@ -54,6 +56,8 @@ body {
 /* FEATURES SECTION */
 #features {
     padding: 7% 15%;
+    background: #fff;
+    position: relative;
 }
 
 .feature-box {
@@ -134,6 +138,58 @@ body {
 
 .price-column {
     padding:  3% 2% !important;
+}
+
+/* CTA SECTION*/
+#cta {
+    background: #FF4C68;
+    color: #fff;
+    text-align: center;
+    padding: 5% 15% 7%;
+}
+
+#cta h3 {
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    margin-bottom: 5%;
+}
+
+/* FOOTER */
+#footer {
+    background: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social {
+    color: black;
+    padding: 0 10px 10px;
+}
+
+.social:hover {
+    color: #FF4C68;    
+}
+
+@media (max-width: 1028px) {
+
+    .dog {
+        width: 25%;    
+    }
+
+    .iphone {
+        position: static;
+        transform: rotate(0);
+        margin-top: 7%;
+    }
+
+    .logo {
+        width: 25%;
+    }
+
+    #title {
+        text-align: center;
+    }
 }
 
 
