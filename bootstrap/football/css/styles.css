@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Montserrat:wght@400;700&display=swap');
+
+body {
+    
+}
+
+/* BACKGROUNDS */
+.background-one {
+ background: #129600;
+}
+
+.container-fluid {
+    padding: 3% 15% 7% !important;
+}
+
+/* NAVBAR */
+.navbar {
+    padding: 0 0 4.5rem 0 !important;
+}
+
+.navbar-brand {
+    font-family: Cabin;
+    font-size: 2.25rem !important;
+    font-weight: 700;
+}
+
+.navbar-brand .fantasy {
+    color: #bcfab4;
+    font-family: Montserrat;
+    font-size: 2.1rem;
+    font-weight: 700;
+}
+
+.nav-item {
+    padding: 0 18px;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+
+#title {
+    
+}
