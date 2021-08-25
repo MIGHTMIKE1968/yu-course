@@ -1,16 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Montserrat:wght@400;700&display=swap');
 
-body {
-    
+.container-fluid {
+    padding: 3% 15% 7% !important;
 }
 
 /* BACKGROUNDS */
 .background-one {
- background: #129600;
+    background: #129600;
 }
 
-.container-fluid {
-    padding: 3% 15% 7% !important;
+.background-two {
+    background: #fff;
+}
+
+.background-three {
+    background: #04009A;
+}
+
+/* COLORS */
+.brown {
+    color: #662900;
+}
+
+.gold {
+    color: #EBA83A;
+}
+
+.dark-blue {
+    color: #04009A;
+}
+
+.light-green {
+    color: #bcfab4;
+}
+
+.white {
+    color: #fff;
 }
 
 /* NAVBAR */
@@ -20,14 +45,13 @@ body {
 
 .navbar-brand {
     font-family: Cabin;
-    font-size: 2.25rem !important;
+    font-size: 2rem !important;
     font-weight: 700;
 }
 
 .navbar-brand .fantasy {
-    color: #bcfab4;
     font-family: Montserrat;
-    font-size: 2.1rem;
+    font-size: 1.9rem;
     font-weight: 700;
 }
 
@@ -40,7 +64,211 @@ body {
     font-size: 1.2rem;
 }
 
-
+/* TITLE SECTION */
 #title {
-    
+    clip-path: polygon(0 0, 100% 0, 100% 78vh, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 78vh, 0 100%); 
 }
+
+#title h1 {
+    font-family: Montserrat;
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.helmet {
+    bottom: -10%;
+    height: auto;
+    position: absolute;
+    right: 7%;
+    width: 75%;
+}
+
+.download-button {
+    margin: 3% 5% 3% 0;
+}
+
+/* FEATURES SECTION */
+#features {
+    padding: 7% 15%;
+    position: relative;
+}
+
+.feature-box {
+    padding: 6%;
+    text-align: center;
+}
+
+#features h3 {
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 700;    
+}
+
+#features p {
+    font-family: Montserrat;
+    color: #8f8f8f;
+    font-size: 1.1rem;
+}
+
+.icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #9EDE73;
+    cursor: pointer;
+}
+
+/* TESTIMONIALS SECTION */
+#testimonials {
+    clip-path: polygon(0 0, 100% 8%, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 8%, 100% 100%, 0 100%);
+    text-align: center;
+    background: #04009A;
+    color: #fff;
+}
+
+#testimonials h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.football-helmet {
+    border-radius: 100%;
+    margin: 20px;
+    height: auto;
+    width: 15%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* PRESS SECTION */
+#press {
+    clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+    background: #04009A;
+    padding-bottom: 3%;  
+    text-align: center;  
+}
+
+#press p {
+    color: #3DB2FF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.logo {
+    margin: 0 5px 50px;
+    padding: 0 10px;
+}
+
+/* JOIN SECTION */
+#join {
+    padding: 100px;
+    text-align: center;
+}
+
+#join h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.join-column {
+    padding:  3% 2% !important;
+}
+
+/* CTA SECTION*/
+#cta {
+    background: #129600;
+    color: #fff;
+    text-align: center;
+    padding: 5% 15% 7%;
+}
+
+#cta h3 {
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    margin-bottom: 2%;
+}
+
+/* FOOTER */
+#footer {
+    background: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social {
+    color: black;
+    font-size: 1.75rem;
+    padding: 0 10px 10px;
+}
+
+.social:hover {
+    color: #9EDE73;    
+}
+
+/* MEDIA */
+@media only screen and (max-width: 1080px) {
+
+    .football-helmet {
+        width: 25%;    
+    }
+
+    .helmet {
+        display: block;
+        height: auto;
+        margin: 10% auto;
+        position: static;
+        width: 300px;
+    }
+
+    .logo {
+        width: 25%;
+    }
+
+    .logo2 {
+       width: 14%; 
+    }
+
+    .navbar-brand {
+        font-size: 1.4rem !important;
+    }
+    
+    .navbar-brand .fantasy {
+        font-size: 1.3rem !important;
+    }
+
+    .social {
+        width: 100%;
+        height: auto;
+    }
+
+    #title {
+        clip-path: polygon(0 0, 100% 0, 100% 120vh, 0 100%);
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 120vh, 0 100%);
+    }
+
+    #title h1 {
+        line-height: 1.25;
+        text-align: center;
+    } 
+
+    #title .download-button {
+        display: none;
+    }
+}
+
+
+
+
