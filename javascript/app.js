@@ -114,5 +114,65 @@ function myAunt() {
 
 myAunt();
 
+// Parameters and Arguments
 
+function exercise(pushups) {
+    const workout = pushups * 10;
+    console.log(`I want you to do ${workout} pushups this workout.`);
+}
 
+exercise(20);
+
+function weightLoss(pounds) {
+    const weight = 275 - pounds;
+    console.log(`I need to lose just 25lbs to get back to ${weight}.`);
+}
+
+weightLoss(25);
+
+function days(month) {
+    console.log(`There are ${month} days in the month of December.`);
+}
+
+days(31);
+
+function sibling(sister) {
+    console.log(`I have a baby sister named ${sister}.`);
+}
+
+sibling("Marie");
+
+function superHero(hero, hero2) {
+    console.log(`${hero} and the ${hero2} are my favorite super heroes.`);
+}
+
+superHero("Spider-Man", "Hulk");
+
+function travel(city1, city2, city3) {
+    console.log(`When I visit Europe I'm going to ${city2}, ${city3}, and ${city1}.`);
+}
+
+travel("Paris", "London", "Madrid");
+
+// Coding Exercise - create a function that tells us how many days, weeks and months we have left until age 90.
+function timeLeft(age) {
+    let currentAge = prompt("Enter your current age."); 
+    let day = (90 - currentAge) * 365;
+    let week = (90 - currentAge) * 52;
+    let month = (90 - currentAge) * 12;
+    console.log(`You have ${day} days, ${week} weeks and ${month} months left before you turn 90.`);
+}
+
+timeLeft();
+
+function lifeInWeeks(age) {    
+        
+        let yearsRemaining = 90 - age;
+        let days = yearsRemaining * 365;
+        let weeks = yearsRemaining * 52;
+        let months = yearsRemaining * 12;
+        
+        console.log("You have " + days + " days," + weeks + " weeks, and " + months + " months left before turning 90.");
+}
+
+lifeInWeeks(53);
