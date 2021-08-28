@@ -1,31 +1,31 @@
-/* ALERTS 
+/*
+
+// ALERTS 
 alert("Hola Mundo! - Hello World!");
 alert("I am learning Javascript.");
-*/
 
-/* PROMPTS
+// PROMPTS
 prompt("What is your name?");
 prompt("How old are you?");
-*/
 
 // Variables
-var myName = ("Rodney Allen Rippy");
+let myName = ("Rodney Allen Rippy");
 console.log(myName);
 
-// var yourNme = prompt("What is your name?");
-//console.log(yourNme);
+let yourNme = prompt("What is your name?");
+console.log(yourNme);
 
 // Coding Challenge 1 //
 // Write code that switches the values of both a and b //
 
-var a = "3";
-var b = "8";
+let a = "3";
+let b = "8";
 
 function test() {
-    var a = "3";
-    var b = "8";
+    let a = "3";
+    let b = "8";
 
-var c = a;  
+let c = a;  
 a = b;
 b = c;
 
@@ -36,18 +36,18 @@ console.log("b is " + b);
 test();
 
 // Coding Challenge. Create an alert from 2 variables using strings
-var greeting = "Good morning";
-var name = "Glenny";
+let greeting = "Good morning";
+let name = "Glenny";
 
-//alert(greeting + " " + name + ".");
+alert(greeting + " " + name + ".");
 
 // String Length
-var concert = "Lollapalooza";
+let concert = "Lollapalooza";
 console.log(concert.length);
 
-//let tweet = prompt("Let us know whats on your mind.");
-//let tweetMsg = tweet.length;
-//alert("You have written " + tweetMsg + " characters. You now have " + (280 - tweetMsg) + " characters left."); 
+let tweet = prompt("Let us know whats on your mind.");
+let tweetMsg = tweet.length;
+alert("You have written " + tweetMsg + " characters. You now have " + (280 - tweetMsg) + " characters left."); 
 
 // String Slicing
 let str = "Hello World!";
@@ -56,10 +56,10 @@ console.log(str.slice(0, 5));
 let prince = "Bonnie Prince Charlie";
 console.log(prince.slice(0, 13));
 
-//let tweet = prompt("Let us know whats on your mind.");
-//let tweetUnder140 = tweet.slice(0, 140);
-//alert(tweetUnder140);
-//console.log(tweetUnder140.length); 
+let tweet = prompt("Let us know whats on your mind.");
+let tweetUnder140 = tweet.slice(0, 140);
+alert(tweetUnder140);
+console.log(tweetUnder140.length); 
 
 // ** To Uppercase
 let punishment = "big trouble";
@@ -73,7 +73,7 @@ console.log(villian.toLowerCase() + " is one sick dude!");
 // ** Capitalize the first letter of their name
 let firstName = prompt("What is your first name?");
 let lastName = prompt("what your last name?");
-//alert("Hello " + firstName.charAt(0).toUpperCase() + firstName.slice(1).toLowerCase() + " " + lastName.charAt(0).toUpperCase() + lastName.slice(1).toLowerCase() + "!");
+alert("Hello " + firstName.charAt(0).toUpperCase() + firstName.slice(1).toLowerCase() + " " + lastName.charAt(0).toUpperCase() + lastName.slice(1).toLowerCase() + "!");
 
 console.log("Hello " + firstName.charAt(0).toUpperCase() + firstName.slice(1).toLowerCase() + " " + lastName.charAt(0).toUpperCase() + lastName.slice(1).toLowerCase() + "!");
 
@@ -88,6 +88,31 @@ let birthYear = prompt("Enter your year of birth.");
 let currentYear = 2021 - birthYear;
 alert("You are " + currentYear + ".");
 
+*/
+
+
+//FUNCTIONS
+
+// Calling A Function
+function food() {
+    console.log("I want some food.");
+}
+
+food();
+
+function football() {
+    const team = "Rams";
+    console.log("The " + team + " are my favorite footbal team.");
+}
+
+football();
+
+function myAunt() {
+    const favAunt = "May";
+    console.log(`${favAunt} is my favorite aunt.`);
+}
+
+myAunt();
 
 
 
