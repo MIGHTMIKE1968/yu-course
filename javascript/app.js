@@ -73,9 +73,20 @@ console.log(villian.toLowerCase() + " is one sick dude!");
 // ** Capitalize the first letter of their name
 let firstName = prompt("What is your first name?");
 let lastName = prompt("what your last name?");
-alert("Hello " + firstName.charAt(0).toUpperCase() + firstName.slice(1).toLowerCase() + " " + lastName.charAt(0).toUpperCase() + lastName.slice(1).toLowerCase() + "!");
+//alert("Hello " + firstName.charAt(0).toUpperCase() + firstName.slice(1).toLowerCase() + " " + lastName.charAt(0).toUpperCase() + lastName.slice(1).toLowerCase() + "!");
 
 console.log("Hello " + firstName.charAt(0).toUpperCase() + firstName.slice(1).toLowerCase() + " " + lastName.charAt(0).toUpperCase() + lastName.slice(1).toLowerCase() + "!");
+
+// ** Dog Age Calculater
+
+let dogAge = prompt("How old is your dog?");
+let humanAge = (dogAge -2 ) * 4 + 21;
+alert("Your dog is " + humanAge + " years old in human years.");
+
+// ** Age Calculater
+let birthYear = prompt("Enter your year of birth.");
+let currentYear = 2021 - birthYear;
+alert("You are " + currentYear + ".");
 
 
 
