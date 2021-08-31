@@ -155,6 +155,7 @@ function travel(city1, city2, city3) {
 travel("Paris", "London", "Madrid");
 
 // Coding Exercise - create a function that tells us how many days, weeks and months we have left until age 90.
+/*
 function timeLeft(age) {
     let currentAge = prompt("Enter your current age."); 
     let day = (90 - currentAge) * 365;
@@ -164,6 +165,7 @@ function timeLeft(age) {
 }
 
 timeLeft();
+*/
 
 function lifeInWeeks(age) {    
         
@@ -176,3 +178,67 @@ function lifeInWeeks(age) {
 }
 
 lifeInWeeks(53);
+
+// Return
+function getMilk(money) {
+
+    let numOfBottles = Math.floor(money / 1.5);
+    console.log("Buy " + numOfBottles + " bottles of milk");
+
+    return money % 1.5;
+
+}
+
+let change = getMilk(4);
+console.log(change);
+
+
+function remaining(days, daysLeft) {
+    return days - daysLeft;
+}
+
+console.log(`You have exactly ${remaining(56, 14)} days left to complete your course.`);
+
+
+function multiply(a, b) {
+    return a * b;
+    console.log(`Today Curtis turned ${multiply} years old.`);
+}
+
+console.log(`Today Curtis turned ${multiply(6, 6)} years old.`);
+
+
+function subtract(x, y) {
+    return y - x;
+}
+
+let wifeName = "Jane";
+
+console.log(`Trevor is ${subtract(4, 8)} years older than his wife ${wifeName}.`);
+
+
+function trip(town) {
+    return town;
+}
+
+let country = "The Dominican Republic";
+
+
+console.log(`${trip("Puerto Plata")} is a great resort town in the ${country}.`);
+
+function share(z) {
+    return z;
+}
+
+person = ["Jay", "William", "Suzy", "Teresa"];
+
+console.log(`${person[3]}, ${person[0]}, ${person[2]}, and ${person[1]} are to each receive $${share(400)}.`);
+
+
+function battingAverage(i, e) {
+    return i / e;
+}
+
+ballPlayer = "Hector Cruz";
+console.log(`${ballPlayer} has a lifetime batting average of ${battingAverage(400, 1200)}`);
+
