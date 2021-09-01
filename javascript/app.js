@@ -167,6 +167,8 @@ function timeLeft(age) {
 timeLeft();
 */
 
+/*
+
 function lifeInWeeks(age) {    
         
         let yearsRemaining = 90 - age;
@@ -241,4 +243,65 @@ function battingAverage(i, e) {
 
 ballPlayer = "Hector Cruz";
 console.log(`${ballPlayer} has a lifetime batting average of ${battingAverage(400, 1200)}`);
+
+*/
+
+// Random Numbers
+let x = Math.random();
+
+x = x * 6;
+
+x = Math.floor(x) + 1;
+
+console.log(x);
+
+
+// Love Score Game
+let nameOne = prompt(`Enter Your name.`);
+let nameTwo = prompt(`Enter your potential match's name.`);
+
+let loveScore = Math.random();
+
+loveScore = loveScore * 100;
+
+loveScore = Math.floor(loveScore) + 1;
+
+alert(`${nameOne} and ${nameTwo} you have a love match of ${loveScore}%.`);
+
+if (loveScore >= 90) {
+    alert(`You make a great couple!`);
+} else if (loveScore < 90 && loveScore >= 75) {
+    alert(`You make a good love match.`);
+} else {
+    alert(`Sorry but you are not a great love match.`);
+}
+
+// If Else Practice
+let yourAge = prompt(`Enter your age please.`);
+
+if (yourAge >= 35) {
+    console.log(`Welcome to Club Elite!`);
+} else {
+    console.log(`Sorry but this night club is for the grown and sexy only!`);
+}
+
+// Leap Year Exercise
+function isLeap(year) {
+
+    if (year % 4 === 0) {
+        if (year % 100 == 0) {
+            if (year / 400 === 0) {
+                return "Leap year."
+            } else {
+                return "Not leap year"
+            }
+        } else {
+            return "Leap year."
+        } 
+    } else {
+        return "Not leap year."
+    }
+}
+
+console.log(`${isLeap(2004)}`);
 
