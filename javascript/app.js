@@ -88,8 +88,6 @@ let birthYear = prompt("Enter your year of birth.");
 let currentYear = 2021 - birthYear;
 alert("You are " + currentYear + ".");
 
-*/
-
 
 //FUNCTIONS
 
@@ -155,7 +153,7 @@ function travel(city1, city2, city3) {
 travel("Paris", "London", "Madrid");
 
 // Coding Exercise - create a function that tells us how many days, weeks and months we have left until age 90.
-/*
+
 function timeLeft(age) {
     let currentAge = prompt("Enter your current age."); 
     let day = (90 - currentAge) * 365;
@@ -165,9 +163,7 @@ function timeLeft(age) {
 }
 
 timeLeft();
-*/
 
-/*
 
 function lifeInWeeks(age) {    
         
@@ -244,7 +240,6 @@ function battingAverage(i, e) {
 ballPlayer = "Hector Cruz";
 console.log(`${ballPlayer} has a lifetime batting average of ${battingAverage(400, 1200)}`);
 
-*/
 
 // Random Numbers
 let x = Math.random();
@@ -305,3 +300,43 @@ function isLeap(year) {
 
 console.log(`${isLeap(2004)}`);
 
+*/
+
+// Arrays
+
+/*
+let guestName = prompt(`Enter your name`);
+
+let guestList = ["Fred", "Marie", "Walter", "Pam"];
+
+if (guestList.includes(guestName)) {
+    alert(`You are on the guest list!`);
+} else {
+    alert(`Sorry. You are not on the guest list.`);
+}
+*/
+
+let output = [];
+let count = 1;
+
+function fizzBuzz() {
+
+if (count % 3 == 0 && count % 5 === 0) {
+    output.push("Fizzbuzz");
+}
+else if (count % 3 === 0) {
+    output.push("Fizz");
+} 
+else if (count % 5 === 0) {
+    output.push("Buzz");
+}
+else  {
+    output.push(count);    
+}
+
+count++;
+
+    console.log(output);
+}
+
+fizzBuzz();
